@@ -1,0 +1,114 @@
+[
+  {
+    "article_id": "KB-001",
+    "title": "Reset your VPN password",
+    "category": "VPN",
+    "tags": ["vpn", "password", "reset", "credentials", "login"],
+    "content": "To reset your VPN password, open the self-service portal at portal.sourcify.example/vpn and sign in with your corporate account. Choose Reset VPN Credentials, complete the MFA challenge, and set a new password of at least 14 characters. The new password takes effect within two minutes. If you cannot sign in to the portal at all, your account may be locked; raise a ticket with the Service Desk so the Identity Team can unlock it."
+  },
+  {
+    "article_id": "KB-002",
+    "title": "VPN connects then drops repeatedly",
+    "category": "VPN",
+    "tags": ["vpn", "disconnect", "drop", "unstable", "network"],
+    "content": "Repeated VPN disconnects are usually caused by an unstable local network or an outdated client. First update the VPN client to version 7.4 or newer. Switch from Wi-Fi to a wired connection or to the 5 GHz band. Disable IPv6 on the network adapter, which is a known conflict on home routers. If drops continue for more than 30 minutes, capture the client log from Help > Export Diagnostics and raise a ticket for the Network Team."
+  },
+  {
+    "article_id": "KB-003",
+    "title": "Set up VPN on a new laptop",
+    "category": "VPN",
+    "tags": ["vpn", "setup", "install", "new laptop", "onboarding"],
+    "content": "Install the corporate VPN client from Company Portal. Sign in with your corporate email address, then approve the MFA prompt. Select the gateway closest to your office location. VPN entitlement is granted automatically for full-time staff; contractors need an approved access request before the client will connect."
+  },
+  {
+    "article_id": "KB-004",
+    "title": "Reset your Windows or corporate account password",
+    "category": "Password",
+    "tags": ["password", "reset", "account", "locked", "windows", "sso"],
+    "content": "Use the self-service password reset at aka.sourcify.example/sspr. You must have MFA enrolled. Enter your corporate email, complete the verification, and choose a new password that meets the policy: at least 14 characters, mixed case, and not one of your last 10 passwords. After resetting, lock and unlock your laptop so the cached credentials refresh."
+  },
+  {
+    "article_id": "KB-005",
+    "title": "Account locked after failed sign-in attempts",
+    "category": "Account",
+    "tags": ["locked", "lockout", "account", "sign in", "failed attempts"],
+    "content": "Accounts lock automatically after 10 failed sign-in attempts and unlock on their own after 30 minutes. The most common cause is a stale password saved in a mail client or on a mobile device. Remove the saved credential, wait for the lockout to clear, then sign in again. If the account relocks immediately, raise a ticket so the Identity Team can trace the source of the failures."
+  },
+  {
+    "article_id": "KB-006",
+    "title": "Enrol a new phone into MFA",
+    "category": "Account",
+    "tags": ["mfa", "authenticator", "two factor", "phone", "enrol"],
+    "content": "Go to aka.sourcify.example/mfa on a laptop, sign in, and select Add sign-in method. Choose Authenticator app and scan the QR code with Microsoft Authenticator on the new phone. Remove the old device from the list once the new one is verified. If you no longer have access to any registered method, the Service Desk must reset your MFA after an identity check with your manager."
+  },
+  {
+    "article_id": "KB-007",
+    "title": "Outlook shows Disconnected or Need Password",
+    "category": "Email",
+    "tags": ["outlook", "email", "disconnected", "mailbox", "password prompt"],
+    "content": "Close Outlook fully and reopen it, then check the connection status in the bottom right. If it still shows Disconnected, clear the cached credential from Windows Credential Manager under the entry beginning MicrosoftOffice16. Restart Outlook and sign in when prompted. Repeated password prompts after a mailbox migration usually clear after creating a fresh Outlook profile."
+  },
+  {
+    "article_id": "KB-008",
+    "title": "Email delivery delays and bounce messages",
+    "category": "Email",
+    "tags": ["email", "bounce", "delay", "delivery", "distribution list"],
+    "content": "Delivery delays of up to 15 minutes can happen during scheduled mail hygiene windows. A bounce with code 5.7.1 means the sender is not permitted to post to that address, which is common for distribution lists restricted to internal senders. Include the full bounce text when raising a ticket for the Messaging Team so the delivery path can be traced."
+  },
+  {
+    "article_id": "KB-009",
+    "title": "Laptop will not power on",
+    "category": "Hardware",
+    "tags": ["laptop", "power", "battery", "charging", "hardware", "dead"],
+    "content": "Disconnect all peripherals, hold the power button for 30 seconds, then connect the original charger and wait 15 minutes before trying again. Check that the charger light is on; a dark light usually means a failed adapter rather than a failed laptop. If there is still no response, the device needs a hardware inspection. Raise a High priority hardware ticket and include your device asset tag."
+  },
+  {
+    "article_id": "KB-010",
+    "title": "Request a hardware replacement or accessory",
+    "category": "Hardware",
+    "tags": [
+      "hardware",
+      "replacement",
+      "monitor",
+      "keyboard",
+      "accessory",
+      "request"
+    ],
+    "content": "Standard accessories such as monitors, keyboards, mice, and headsets can be requested through the Service Desk and do not need manager approval. Laptop replacements need manager approval unless the device is under four years old and has a confirmed fault. Expect five working days for delivery to an office and ten for a home address."
+  },
+  {
+    "article_id": "KB-011",
+    "title": "Printing problems and stuck print queues",
+    "category": "Printer",
+    "tags": ["printer", "print", "queue", "spooler", "driver"],
+    "content": "If jobs queue but never print, clear the local queue and restart the Print Spooler service. Confirm you are on the office network or VPN, because printers are not reachable from the public internet. If a specific printer is missing, add it from the Printers portal using its floor code, for example Lisbon-3F. Persistent failures across several users usually mean a print server issue, so check the system status page first."
+  },
+  {
+    "article_id": "KB-012",
+    "title": "Install approved software",
+    "category": "Software",
+    "tags": ["software", "install", "licence", "company portal", "application"],
+    "content": "Approved applications install without admin rights from Company Portal. Software that is not listed needs a software request with a business justification and manager approval. Licences are reclaimed automatically after 60 days without use, which is the usual reason an application suddenly reports an expired licence; reinstalling from Company Portal reissues it."
+  },
+  {
+    "article_id": "KB-013",
+    "title": "Request access to an application or shared site",
+    "category": "Access",
+    "tags": ["access", "permission", "request", "sharepoint", "role", "denied"],
+    "content": "Access is granted through roles rather than to individuals. Raise an access request naming the exact application or site URL and the level you need, such as read or read/write. Your manager and the system owner both approve. Approved access typically applies within four hours of the final approval; sign out and back in to pick up the new role."
+  },
+  {
+    "article_id": "KB-014",
+    "title": "Report a phishing or suspicious email",
+    "category": "Security",
+    "tags": ["phishing", "security", "suspicious", "scam", "report"],
+    "content": "Do not click links or open attachments. Use the Report Phishing button in Outlook, which forwards the message with its headers to the Security Team and removes it from your mailbox. If you already entered credentials, change your password immediately and raise a High priority security ticket so sessions can be revoked."
+  },
+  {
+    "article_id": "KB-015",
+    "title": "Wi-Fi and office network connectivity issues",
+    "category": "Network",
+    "tags": ["wifi", "network", "connectivity", "internet", "office"],
+    "content": "Forget the corporate Wi-Fi network and rejoin it so the certificate is reissued. If only some sites fail, the problem is usually DNS rather than the connection; try a different browser and check the system status page. Whole floor outages are tracked centrally, so check system status before raising a ticket to avoid duplicates."
+  }
+]

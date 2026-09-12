@@ -1,0 +1,134 @@
+[
+  {
+    "employee_id": "EMP1024",
+    "name": "Priya Sharma",
+    "email": "priya.sharma@sourcify.example",
+    "department": "Finance",
+    "location": "Bengaluru",
+    "manager": "Anil Rao",
+    "device_id": "LT-4471",
+    "vpn_enabled": true,
+    "mfa_enrolled": true
+  },
+  {
+    "employee_id": "EMP1031",
+    "name": "Daniel Okafor",
+    "email": "daniel.okafor@sourcify.example",
+    "department": "Engineering",
+    "location": "Dublin",
+    "manager": "Mia Lindqvist",
+    "device_id": "LT-2210",
+    "vpn_enabled": true,
+    "mfa_enrolled": true
+  },
+  {
+    "employee_id": "EMP1042",
+    "name": "Sofia Marino",
+    "email": "sofia.marino@sourcify.example",
+    "department": "Sales",
+    "location": "Milan",
+    "manager": "Tomas Weber",
+    "device_id": "LT-9083",
+    "vpn_enabled": true,
+    "mfa_enrolled": false
+  },
+  {
+    "employee_id": "EMP1055",
+    "name": "Kenji Watanabe",
+    "email": "kenji.watanabe@sourcify.example",
+    "department": "Engineering",
+    "location": "Osaka",
+    "manager": "Mia Lindqvist",
+    "device_id": "LT-3319",
+    "vpn_enabled": true,
+    "mfa_enrolled": true
+  },
+  {
+    "employee_id": "EMP1067",
+    "name": "Amara Diallo",
+    "email": "amara.diallo@sourcify.example",
+    "department": "HR",
+    "location": "Toronto",
+    "manager": "Grace Feld",
+    "device_id": "LT-6642",
+    "vpn_enabled": false,
+    "mfa_enrolled": true
+  },
+  {
+    "employee_id": "EMP1073",
+    "name": "Lucas Ferreira",
+    "email": "lucas.ferreira@sourcify.example",
+    "department": "Marketing",
+    "location": "Lisbon",
+    "manager": "Grace Feld",
+    "device_id": "LT-1187",
+    "vpn_enabled": true,
+    "mfa_enrolled": true
+  },
+  {
+    "employee_id": "EMP1088",
+    "name": "Hannah Berg",
+    "email": "hannah.berg@sourcify.example",
+    "department": "Legal",
+    "location": "Berlin",
+    "manager": "Tomas Weber",
+    "device_id": "LT-5520",
+    "vpn_enabled": true,
+    "mfa_enrolled": true
+  },
+  {
+    "employee_id": "EMP1090",
+    "name": "Omar Haddad",
+    "email": "omar.haddad@sourcify.example",
+    "department": "IT",
+    "location": "Dubai",
+    "manager": "Anil Rao",
+    "device_id": "LT-7734",
+    "vpn_enabled": true,
+    "mfa_enrolled": true
+  },
+  {
+    "employee_id": "EMP1102",
+    "name": "Elena Petrova",
+    "email": "elena.petrova@sourcify.example",
+    "department": "Finance",
+    "location": "Bengaluru",
+    "manager": "Anil Rao",
+    "device_id": "LT-8815",
+    "vpn_enabled": true,
+    "mfa_enrolled": true
+  },
+  {
+    "employee_id": "EMP1115",
+    "name": "Marcus Bell",
+    "email": "marcus.bell@sourcify.example",
+    "department": "Support",
+    "location": "Austin",
+    "manager": "Grace Feld",
+    "device_id": "LT-2903",
+    "vpn_enabled": true,
+    "mfa_enrolled": false
+  },
+  {
+    "employee_id": "EMP1128",
+    "name": "Yuki Tanaka",
+    "email": "yuki.tanaka@sourcify.example",
+    "department": "Engineering",
+    "location": "Osaka",
+    "manager": "Mia Lindqvist",
+    "device_id": "LT-4408",
+    "vpn_enabled": true,
+    "mfa_enrolled": true
+  },
+  {
+    "employee_id": "EMP1140",
+    "name": "Rosa Alvarez",
+    "email": "rosa.alvarez@sourcify.example",
+    "department": "Operations",
+    "location": "Mexico City",
+    "manager": "Tomas Weber",
+    "device_id": "LT-6071",
+    "vpn_enabled": false,
+    "mfa_enrolled": true
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "service": "VPN Gateway",
+    "status": "Degraded",
+    "region": "EMEA",
+    "message": "Intermittent reconnects on the Dublin gateway. Engineering is applying a fix.",
+    "updated_at": "2026-09-02T08:15:00"
+  },
+  {
+    "service": "Email (Exchange)",
+    "status": "Operational",
+    "region": "Global",
+    "message": "No known issues.",
+    "updated_at": "2026-09-02T06:00:00"
+  },
+  {
+    "service": "SSO / Identity",
+    "status": "Operational",
+    "region": "Global",
+    "message": "No known issues.",
+    "updated_at": "2026-09-02T06:00:00"
+  },
+  {
+    "service": "Print Services",
+    "status": "Outage",
+    "region": "APAC",
+    "message": "Osaka print server is offline. Engineers on site, ETA 14:00 JST.",
+    "updated_at": "2026-09-02T09:30:00"
+  },
+  {
+    "service": "File Shares",
+    "status": "Operational",
+    "region": "Global",
+    "message": "No known issues.",
+    "updated_at": "2026-09-02T06:00:00"
+  },
+  {
+    "service": "Corporate Wi-Fi",
+    "status": "Operational",
+    "region": "Global",
+    "message": "Scheduled maintenance in Berlin on 2026-09-05 between 22:00 and 23:00 CEST.",
+    "updated_at": "2026-09-02T07:20:00"
+  }
+]
